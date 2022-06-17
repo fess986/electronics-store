@@ -23,7 +23,7 @@ block content
       h2.catalog__title Электроника
       ul.catalog__list
         li.catalog__item.card
-          img.card__image(src="" data-value="20" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
+          img.card__image(src="img/photo-15.png" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
           p.hint.card__image--discount скидка 20%
           a.card__link Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T
           .card__cost.cost
@@ -31,11 +31,16 @@ block content
             p.cost__old 172 800 ₽
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 132 отзыва
           .card__delivery Бесплатная доставка по России 2 года гарантии
@@ -43,12 +48,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button.chart-button--active
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Смартфон Huawei Mate Xs Interstellar Blue (TAH-N29M)')
+          img.card__image(src="img/photo-14.png" width="280px" height="300px" alt='фото Смартфон Huawei Mate Xs Interstellar Blue (TAH-N29M)')
           p.hint.card__image--hit Хит продаж
           a.card__link Смартфон Huawei Mate Xs Interstellar Blue (TAH-N29M)
           .card__cost.cost
@@ -56,11 +63,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 12 отзывов
           .card__delivery Доставка по всему миру 1 год гарантии
@@ -68,12 +80,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Моноблок Apple iMac 24 M1/8/256 Purple (MGPM3RU/A)')
+          img.card__image(src="img/photo-13.png" width="280px" height="300px" alt='фото Моноблок Apple iMac 24 M1/8/256 Purple (MGPM3RU/A)')
           p.hint.card__image--installments РАССРОЧКА 0-0-24
           a.card__link Моноблок Apple iMac 24 M1/8/256 Purple (MGPM3RU/A)
           .card__cost.cost
@@ -81,11 +95,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 5
             p.reviews-and-score__reviews 24 отзыва
           .card__delivery Бесплатная доставка Расширенная гарантия AppleCare
@@ -93,12 +112,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button.like-button--active
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#5236FF fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото LED Телевизор Full HD LG 43LP50006LA')
+          img.card__image(src="img/photo-12.png" width="280px" height="300px" alt='фото LED Телевизор Full HD LG 43LP50006LA')
           p.hint
           a.card__link LED Телевизор Full HD LG 43LP50006LA
           .card__cost.cost
@@ -106,11 +127,16 @@ block content
             p.cost__old 172 800 ₽
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 26 отзывов
           .card__delivery Бесплатная доставка 3 года бесплатного обслуживания
@@ -118,12 +144,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото OLED телевизор 4K Ultra HD Sony KD-55AG9')
+          img.card__image(src="img/photo-11.png" width="280px" height="300px" alt='фото OLED телевизор 4K Ultra HD Sony KD-55AG9')
           p.hint
           a.card__link Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T
           .card__cost.cost
@@ -131,7 +159,8 @@ block content
             p.cost__old 172 800 ₽
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#E6E6F2 fill=#E6E6F2  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score
             p.reviews-and-score__reviews.reviews-and-score__reviews--no-reviews Нет отзывов
           .card__delivery Доставка по всему миру 1 год гарантии
@@ -139,12 +168,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img chart-button__img--active" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)')
+          img.card__image(src="img/photo-10.png" width="280px" height="300px" alt='фото Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)')
           p.hint
           a.card__link Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)
           .card__cost.cost
@@ -152,11 +183,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 7 отзывов
           .card__delivery Бесплатная доставка по России 1 год гарантии
@@ -164,12 +200,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
+          img.card__image(src="img/photo-9.png" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
           p.hint
           a.card__link Смарт-часы Apple Watch SE 40mm White (MYDM2RU/A)
           .card__cost.cost
@@ -177,11 +215,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 5
             p.reviews-and-score__reviews 132 отзыва
           .card__delivery Бесплатная доставка Расширенная гарантия AppleCare
@@ -189,12 +232,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Моноблок Apple iMac 24 M1/8/256 Yellow (MGPM3RU/A)')
+          img.card__image(src="img/photo-8.png" width="280px" height="300px" alt='фото Моноблок Apple iMac 24 M1/8/256 Yellow (MGPM3RU/A)')
           p.hint.card__image--installments РАССРОЧКА 0-0-24
           a.card__link Моноблок Apple iMac 24 M1/8/256 Yellow (MGPM3RU/A)
           .card__cost.cost
@@ -202,11 +247,16 @@ block content
             p.cost__old 172 800 ₽
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 5
             p.reviews-and-score__reviews 12 отзывов
           .card__delivery Бесплатная доставка Расширенная гарантия AppleCare
@@ -214,12 +264,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button.like-button--active
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img like-button__img--active" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Смарт браслет Samsung Galaxy Fit 2 White (SM-R220NZKACIS)')
+          img.card__image(src="img/photo-7.png" width="280px" height="300px" alt='фото Смарт браслет Samsung Galaxy Fit 2 White (SM-R220NZKACIS)')
           p.hint.card__image--hit ХИТ ПРОДАЖ
           a.card__link Смарт браслет Samsung Galaxy Fit 2 White (SM-R220NZKACIS)
           .card__cost.cost
@@ -227,11 +279,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 164 отзыва
           .card__delivery Бесплатная доставка
@@ -239,12 +296,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button.chart-button--active
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img chart-button__img--active" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Планшет Apple iPad Pro 11 (2020) 128 GB Space Grey (MY2V2RU/A)')
+          img.card__image(src="img/photo-6.png" width="280px" height="300px" alt='фото Планшет Apple iPad Pro 11 (2020) 128 GB Space Grey (MY2V2RU/A)')
           p.hint
           a.card__link Планшет Apple iPad Pro 11 (2020) 128 GB Space Grey (MY2V2RU/A)
           .card__cost.cost
@@ -252,11 +311,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 22 отзыва
           .card__delivery Бесплатная доставка
@@ -264,12 +328,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img like-button__img--active" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Беспроводные наушники Apple AirPods 2 White (MRXJ2RU/A)')
+          img.card__image(src="img/photo-5.png" width="280px" height="300px" alt='фото Беспроводные наушники Apple AirPods 2 White (MRXJ2RU/A)')
           p.hint.card__image--discount Скидка 30%
           a.card__link Беспроводные наушники Apple AirPods 2 White (MRXJ2RU/A)
           .card__cost.cost
@@ -277,11 +343,16 @@ block content
             p.cost__old 14 300 ₽
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 18 отзывов
           .card__delivery Бесплатная доставка по России
@@ -289,12 +360,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)')
+          img.card__image(src="img/photo-4.png" width="280px" height="300px" alt='фото Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)')
           p.hint
           a.card__link Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)
           .card__cost.cost
@@ -302,11 +375,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 5 отзывов
           .card__delivery Доставка по всему миру
@@ -314,12 +392,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image.card__image--out-of-stock(src="" width="280px" height="300px" alt='фото Планшет Apple iPad Air (2020) 256GB White (MYFT2RU/A)')
+          img.card__image.card__image--out-of-stock(src="img/photo-3.png" width="280px" height="300px" alt='фото Планшет Apple iPad Air (2020) 256GB White (MYFT2RU/A)')
           p.hint
           a.card__link--out-of-stock Планшет Apple iPad Air (2020) 256GB White (MYFT2RU/A)
           .card__cost.cost.cost--out-of-stock
@@ -327,11 +407,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 5
             p.reviews-and-score__reviews 14 отзывов
           .card__delivery Бесплатная доставка Расширенная гарантия AppleCare
@@ -339,12 +424,14 @@ block content
             button.card-actions__button.button.button--out-of-stock(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button.chart-button--active
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img chart-button__img--active" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD')
+          img.card__image(src="img/photo-2.png" width="280px" height="300px" alt='фото Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD')
           p.hint.card__image--installments РАССРОЧКА 0-0-24
           a.card__link Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD
           .card__cost.cost
@@ -352,11 +439,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 32 отзыва
           .card__delivery Бесплатная доставка по России 2 года гарантии
@@ -364,12 +456,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button.like-button--active
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img like-button__img--active" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button.chart-button--active
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img chart-button__img--active" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.catalog__item.card
-          img.card__image(src="" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
+          img.card__image(src="img/photo-1.png" width="280px" height="300px" alt='фото Ноутбук ASUS ZenBook Duo 14 UX482EG-HY010T')
           p.hint
           a.card__link Смартфон Apple iPhone 12 Pro 128GB Pacific Blue (MGMN3RU/A)
           .card__cost.cost
@@ -377,11 +471,16 @@ block content
             p.cost__old
           .card__reviews-and-score.reviews-and-score
             .reviews-and-score__stars
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='звездочка')
-              img.reviews-and-score__star(src='' width="11px" height="11px" alt='пустая звездочка')
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" width="11px" height="11px" fill=#5236FF stroke=5236FF aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
+              .
+                <svg class="reviews-and-score__star" aria-hidden="true" width="11px" height="11px" stroke-width='1' stroke=#5236FF fill='none'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14"><path d="M7 11.252L11.326 14l-1.148-5.18L14 5.335l-5.033-.457L7 0 5.033 4.878 0 5.335 3.815 8.82 2.674 14 7 11.252z"/></svg>
             p.reviews-and-score__score 4
             p.reviews-and-score__reviews 5 отзывов
           .card__delivery Бесплатная доставка
@@ -389,10 +488,12 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     section.page-catalog__pagination.pagination
       ul.pagination__list
         li.pagination__item
@@ -422,8 +523,8 @@ block content
       h2.recently-viewed__title Вы недавно смотрели
       ul.recently-viewed__list
         li.recently-viewed__item.recently-viewed-card
-          img.recently-viewed-card__image(src="" width="280px" height="300px" alt='фото Apple iPad Pro 11 (2020) 128 GB Space Grey (MY2V2RU/A)')
-          p.recently-viewed-card__description Планшет Apple iPad Pro 11 (2020) 128 GB Space Grey (MY2V2RU/A)
+          img.recently-viewed-card__image(src="img/photo-10.png" width="280px" height="300px" alt='фото Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)')
+          p.recently-viewed-card__description Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)
           .recently-viewed-card__cost.cost
             p.cost__current 72 000 ₽
             p.cost__old
@@ -431,12 +532,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button.like-button--active
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img like-button__img--active" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.recently-viewed__item.recently-viewed-card
-          img.recently-viewed-card__image(src="" width="280px" height="300px" alt='фото Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)')
+          img.recently-viewed-card__image(src="img/photo-6.png" width="280px" height="300px" alt='фото Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)')
           p.recently-viewed-card__description Смарт-часы Apple Watch Series 5 38mm (MTEY2RU/A)
           .recently-viewed-card__cost.cost
             p.cost__current 34 000 ₽
@@ -445,12 +548,14 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button.like-button--active
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button.chart-button--active
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.recently-viewed__item.recently-viewed-card
-          img.recently-viewed-card__image.recently-viewed-card__image--discount(src="" width="280px" height="300px" alt='фото Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD')
+          img.recently-viewed-card__image.recently-viewed-card__image--discount(src="img/photo-2.png" width="280px" height="300px" alt='фото Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD')
           p.recently-viewed-card__description Ноутбук Apple MacBook Pro 16 TB i9 2.3/16GB/1024GB SSD
           .recently-viewed-card__cost.cost
             p.cost__current 239 000 ₽
@@ -459,26 +564,30 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img like-button__img--active" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img chart-button__img--active" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.recently-viewed__item.recently-viewed-card
-          img.recently-viewed-card__image(src="" width="280px" height="300px" alt='фото Смарт-часы Apple Watch SE 40mm White (MYDM2RU/A)')
+          img.recently-viewed-card__image(src="img/photo-9.png" width="280px" height="300px" alt='фото Смарт-часы Apple Watch SE 40mm White (MYDM2RU/A)')
           p.recently-viewed-card__description Смарт-часы Apple Watch SE 40mm White (MYDM2RU/A)
           .recently-viewed-card__cost.cost
             p.cost__current 25 000 ₽
             p.cost__old
           .recently-viewed-card__actions.card-actions
-            button.card-actions__button.button(type="button") В корзину
+            button.card-actions__button.button(type="button") В Корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         li.recently-viewed__item.recently-viewed-card
-          img.recently-viewed-card__image(src="" width="280px" height="300px" alt='фото Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)')
+          img.recently-viewed-card__image(src="img/photo-4.png" width="280px" height="300px" alt='фото Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)')
           p.recently-viewed-card__description Смартфон Samsung Galaxy S20 Ultra 12/128GB (SM-G988BZADSER)
           .recently-viewed-card__cost.cost
             p.cost__current 95 000 ₽
@@ -487,10 +596,12 @@ block content
             button.card-actions__button.button(type="button") В корзину
             a.card-actions__button.like-button
               span.visually-hidden Добавить в избранное
-              img.like-button__img(src='' width="19px" height="16px" alt='Добавить в избранное')
+              .
+                <svg class="like-button__img" viewBox="0 0 21 18" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M18.535 2.415a5.014 5.014 0 00-1.622-1.047 5.155 5.155 0 00-3.828 0 5.014 5.014 0 00-1.622 1.047l-.963.93-.964-.93A5.093 5.093 0 006 1a5.093 5.093 0 00-3.535 1.415A4.745 4.745 0 001 5.828c0 1.28.527 2.509 1.465 3.414L10.5 17l8.035-7.758a4.82 4.82 0 001.084-1.566 4.682 4.682 0 000-3.695 4.819 4.819 0 00-1.084-1.566z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             a.card-actions__button.chart-button
               span.visually-hidden Добавить в сравнение
-              img.chart-button__img(src='' width="19px" height="16px" alt='Добавить в сравнение')
+              .
+                <svg class="chart-button__img" viewBox="0 0 17 20" width="19px" height="16px" stroke=#B8B8CC fill='none' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
 
 
 
