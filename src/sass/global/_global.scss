@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-.wrapper1 {
+.wrapper {
   // color: green;
   // background-color: green;
 }
@@ -34,25 +34,36 @@ html {
 .button {
   display: flex;
   justify-content: center;
-  padding-top: 14px;
-  padding-bottom: 12px;
-  min-height: 52px;
-  // border: 2px solid $brown_border;
-  // color: $brown_border;
-  text-transform: uppercase;
-  background-color: $white;
+  width: 155px;
+  height: 44px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @include inter-semibold;
+  font-size: 16px;
+  line-height: 40px;
+  color: $white;
+  background-color: $blue;
   cursor: pointer;
 
-  &:hover {
-    color: $white;
-    // background-color: $brown_border;
-  }
 
-  &:active {
-    color: rgb(255 255 255 / 30%);
-    // background-color: $brown_border;
-  }
+    &--out-of-stock {
+      color: $light-gray;
+      background-color: $very-light-gray;
+    }
+
 }
+
+
+  // &:hover {
+  //   color: $white;
+  //   // background-color: $brown_border;
+  // }
+
+  // &:active {
+  //   color: rgb(255 255 255 / 30%);
+  //   // background-color: $brown_border;
+  // }
+
 
 
 // настройки предыдущего проекта
