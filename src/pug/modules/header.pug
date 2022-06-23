@@ -1,20 +1,21 @@
 header.page__header.header.header__wrapper
   nav.header__navigation.header-navigation
-    a.header-navigation__logo.logo(href="#")
-      img.logo__image(src='img/icons/logo.svg' width="60" height="52" alt="логотип")
-    ul.header-navigation__site-nav.site-nav
-      li.site-nav__item
-        a.site-nav__reference.site-nav__reference--active(href='#') Электроника
-      li.site-nav__item
-        a.site-nav__reference(href='#') Бытовая техника
-      li.site-nav__item
-        a.site-nav__reference(href='#') Музыка и видео
-      li.site-nav__item
-        a.site-nav__reference(href='#') Цифровые товары
-      li.site-nav__item
-        a.site-nav__reference(href='#') Игры и консоли
-      li.site-nav__item
-        a.site-nav__reference.site-nav__reference--important(href='#') Акции
+    .header-navigation__wrapper
+      a.header-navigation__logo.logo(href="#")
+        img.logo__image(src='img/icons/logo.svg' width="60" height="52" alt="логотип")
+      ul.header-navigation__site-nav.site-nav
+        li.site-nav__item
+          a.site-nav__reference.site-nav__reference--active(href='#') Электроника
+        li.site-nav__item
+          a.site-nav__reference(href='#') Бытовая техника
+        li.site-nav__item
+          a.site-nav__reference(href='#') Музыка и видео
+        li.site-nav__item
+          a.site-nav__reference(href='#') Цифровые товары
+        li.site-nav__item
+          a.site-nav__reference(href='#') Игры и консоли
+        li.site-nav__item
+          a.site-nav__reference.site-nav__reference--important(href='#') Акции
     ul.header-navigation__user-nav.user-nav
       li.user-nav__item.user-nav-item
         a.user-nav-item__reference(href='#')
@@ -25,20 +26,19 @@ header.page__header.header.header__wrapper
         a.user-nav-item__reference(href='#')
           .
             <svg class="user-nav-item__img" width="17" height="20" fill="none" stroke='black' xmlns="http://www.w3.org/2000/svg"><path d="M11 19V8m5 11V4M6 19V1M1 19v-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          .user-nav-item__count 3
           span.user-nav-item__captiion Сравнение
+            .user-nav-item__count  3
       li.user-nav__item.user-nav-item
         a.user-nav-item__reference(href='#')
           .
             <svg class="user-nav-item__img" width="23" height="20" fill="none" stroke='black' xmlns="http://www.w3.org/2000/svg"><path d="M20.38 2.591a5.533 5.533 0 00-1.792-1.177 5.61 5.61 0 00-4.23 0c-.671.273-1.28.673-1.793 1.177L11.5 3.638 10.435 2.59a5.576 5.576 0 00-3.908-1.59 5.576 5.576 0 00-3.908 1.59A5.384 5.384 0 001 6.431c0 1.441.582 2.823 1.619 3.841L11.499 19l8.882-8.728a5.423 5.423 0 001.198-1.762 5.348 5.348 0 000-4.157 5.423 5.423 0 00-1.198-1.762z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          .user-nav-item__count 4
           span.user-nav-item__captiion Избранное
-      li.user-nav__item.user-nav-item
+            .user-nav-item__count 4
+      li.user-nav__item.user-nav-item.user-nav-item--last
         a.user-nav-item__reference(href='#')
-          img.user-nav-item__img(src="")
           .
             <svg class="user-nav-item__img" width="24" height="23" fill="none" stroke='black' xmlns="http://www.w3.org/2000/svg"><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6m15 15a1 1 0 11-2 0 1 1 0 012 0zm-11 0a1 1 0 11-2 0 1 1 0 012 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          .user-nav-item__count 2
           span.user-nav-item__captiion Корзина
+            .user-nav-item__count 2
 
 

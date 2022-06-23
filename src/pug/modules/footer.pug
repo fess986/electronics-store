@@ -1,7 +1,8 @@
 footer.page-footer.container
   .page-footer__row
     .page-footer__column
-      ul.service-navigation-list.about-company О компании
+      h4.service-navigation-list__title О компании
+      ul.service-navigation__list.about-company
         li.service-navigation__item
           a.service-navigation__reference(href='#') О нас
         li.service-navigation__item
@@ -13,7 +14,8 @@ footer.page-footer.container
         li.service-navigation__item
           a.service-navigation__reference Новости
     .page-footer__column
-      ul.service-navigation-list.for-buyers Покупателям
+      h4.service-navigation-list__title Покупателям
+      ul.service-navigation__list.for-buyers
         li.service-navigation__item
           a.service-navigation__reference(href='#') Служба поддержки
         li.service-navigation__item
@@ -25,7 +27,8 @@ footer.page-footer.container
         li.service-navigation__item
           a.service-navigation__reference(href='#') Акции
     .page-footer__column
-      ul.service-navigation-list.cooperation Сотрудничество
+      h4.service-navigation-list__title Сотрудничество
+      ul.service-navigation__list.cooperation
         li.service-navigation__item
           a.service-navigation__reference(href='#') Продавайте на Market
         li.service-navigation__item
@@ -37,14 +40,15 @@ footer.page-footer.container
         li.service-navigation__item
           a.service-navigation__reference(href='#') Постаматы
     .page-footer__column.law
-      ul.service-navigation-list.Legal-information Правовая информация
+      h4.service-navigation-list__title Правовая информация
+      ul.service-navigation__list.Legal-information
         li.service-navigation__item
           a.service-navigation__reference(href='#') Условия использования сайта
         li.service-navigation__item
           a.service-navigation__reference(href='#') Политика обработки персональных данных
         li.service-navigation__item
           a.service-navigation__reference(href='#') Условия заказа и доставки
-    .page-footer__column
+    .page-footer__column.page-footer__column--last
       .page-footer__payment-list.payment-list
         .payment-list__title Способы оплаты
         ul.payment-list__cards
@@ -69,7 +73,7 @@ footer.page-footer.container
               span.visually-hidden Yandex
               img.payment-list__img(src="img/icons/yandex.svg" width="34px" height="24px" alt="Yandex")
       .page-footer__socials.socials
-        .socials__title Мы в соцсетях
+        p.socials__title Мы в соцсетях
           ul.socials__list
             li.socials__item
               a.socials__reference
@@ -89,6 +93,6 @@ footer.page-footer.container
               img.socials__img(src="img/icons/instagram.svg" width="30px" height="30px" alt="Instagram")
   .page-footer__row
     hr.footer-hr
-  .page-footer__row
+  .page-footer__row.top-line
     p.footer__rights OOO «Маркет» © 2021 Все права защищены
 
