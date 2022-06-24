@@ -1,0 +1,19 @@
+mixin navigationItem(name, ref, isActive, isImportant)
+  if isActive
+    li.site-nav__item
+      a.site-nav__reference.site-nav__reference--active(href= ref)= name
+  else if isImportant
+    li.site-nav__item
+    a.site-nav__reference.site-nav__reference--important(href= ref)= name
+  else
+    li.site-nav__item
+    a.site-nav__reference(href= ref)= name
+
+
+ul.header-navigation__site-nav.site-nav
+  +navigationItem('Электроника', '#', true)
+  +navigationItem('Бытовая техника', '#')
+  +navigationItem('Музыка и видео', '#')
+  +navigationItem('Цифровые товары', '#')
+  +navigationItem('Игры и консоли', '#')
+  +navigationItem('Акции', '#', false, true)

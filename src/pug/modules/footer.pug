@@ -1,96 +1,16 @@
 footer.page-footer.container
   .page-footer__row
     .page-footer__column
-      h4.service-navigation-list__title О компании
-      ul.service-navigation__list.about-company
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') О нас
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Контакты
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Вакансии
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Реквизиты
-        li.service-navigation__item
-          a.service-navigation__reference Новости
+      include footer/footer-about-company
     .page-footer__column
-      h4.service-navigation-list__title Покупателям
-      ul.service-navigation__list.for-buyers
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Служба поддержки
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Оплата и доставка
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Возврат и обмен
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Рассрочка
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Акции
+      include footer/footer-for-buyers
     .page-footer__column
-      h4.service-navigation-list__title Сотрудничество
-      ul.service-navigation__list.cooperation
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Продавайте на Market
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Перевозчикам
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Пункты выдачи
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Реферальная программа
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Постаматы
+      include footer/footer-cooperation
     .page-footer__column.law
-      h4.service-navigation-list__title Правовая информация
-      ul.service-navigation__list.Legal-information
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Условия использования сайта
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Политика обработки персональных данных
-        li.service-navigation__item
-          a.service-navigation__reference(href='#') Условия заказа и доставки
+      include footer/footer-Legal-information
     .page-footer__column.page-footer__column--last
-      .page-footer__payment-list.payment-list
-        .payment-list__title Способы оплаты
-        ul.payment-list__cards
-          li.payment-list__item
-            a.payment-list__reference
-              span.visually-hidden Visa
-              img.payment-list__img(src="img/icons/visa.svg" width="34px" height="24px" alt="visa")
-          li.payment-list__item
-            a.payment-list__reference
-              span.visually-hidden mastercard
-              img.payment-list__img(src="img/icons/mastercard.svg" width="34px" height="24px" alt="mastercard")
-          li.payment-list__item
-            a.payment-list__reference
-              span.visually-hidden ApplePay
-              img.payment-list__img(src="img/icons/applepay.svg" width="34px" height="24px" alt="Apple Pay")
-          li.payment-list__item
-            a.payment-list__reference
-              span.visually-hidden GooglePay
-              img.payment-list__img(src="img/icons/googlepay.svg" width="34px" height="24px" alt="GooglePay")
-          li.payment-list__item
-            a.payment-list__reference
-              span.visually-hidden Yandex
-              img.payment-list__img(src="img/icons/yandex.svg" width="34px" height="24px" alt="Yandex")
-      .page-footer__socials.socials
-        p.socials__title Мы в соцсетях
-          ul.socials__list
-            li.socials__item
-              a.socials__reference
-              span.visually-hidden Twitter
-              img.socials__img(src="img/icons/twitter.svg" width="30px" height="30px" alt="Twitter")
-            li.socials__item
-              a.socials__reference
-              span.visually-hidden Facebook
-              img.socials__img(src="img/icons/facebook.svg" width="30px" height="30px" alt="Facebook")
-            li.socials__item
-              a.socials__reference
-              span.visually-hidden VK
-              img.socials__img(src="img/icons/vk.svg" width="30px" height="30px" alt="VK")
-            li.socials__item
-              a.socials__reference
-              span.visually-hidden Instagram
-              img.socials__img(src="img/icons/instagram.svg" width="30px" height="30px" alt="Instagram")
+      include footer/footer-payment-list
+      include footer/footer-socials
   .page-footer__row
     hr.footer-hr
   .page-footer__row.top-line

@@ -1,0 +1,16 @@
+mixin breadCrumbsItem(name, ref, isFirst, isActive)
+  if isFirst
+    li.breadcrumbs__item.breadcrumbs__item--first
+      a.breadcrumbs__ref(href= ref)= name
+  else if isActive
+    li.breadcrumbs__item
+      a.breadcrumbs__ref.breadcrumbs__ref--active(href= ref)= name
+  else
+    li.breadcrumbs__item
+      a.breadcrumbs__ref(href= ref)= name
+
+section.page-catalog__breadcrumbs.breadcrumbs
+  ul.breadcrumbs__list
+    +breadCrumbsItem('Главная', '#', true)
+    +breadCrumbsItem('Электроника', '#')
+    +breadCrumbsItem('Все товары', '#', false, true)
