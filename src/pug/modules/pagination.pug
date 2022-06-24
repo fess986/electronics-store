@@ -1,0 +1,29 @@
+mixin paginationItem(number, ref, isActive, isPrevious, isNext)
+  if isActive
+    li.pagination__item.pagination__item--active
+      a.pagination__link.pagination__link--active(href= ref)= number
+  else if isPrevious
+    li.pagination__item
+      a.pagination__link.pagination__link--previous(href= ref)&attributes(attributes) <
+        span.visually-hidden Назад
+  else if isNext
+    li.pagination__item
+          a.pagination__link.pagination__link--next(href= ref)&attributes(attributes) >
+            span.visually-hidden Назад
+  else
+    li.pagination__item
+          a.pagination__link(href= ref)= number
+
+
+section.page-catalog__pagination.pagination
+  ul.pagination__list
+    +paginationItem('', "#", false, true).pagination__link--disabled
+    +paginationItem('1', "#", true)
+    +paginationItem('2', "#")
+    +paginationItem('3', "#")
+    +paginationItem('4', "#")
+    +paginationItem('5', "#")
+    +paginationItem('6', "#")
+    +paginationItem('7', "#")
+    +paginationItem('8', "#")
+    +paginationItem('', "#", false, false, true)

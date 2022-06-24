@@ -246,6 +246,9 @@ html {
   font-size: 14px;
   line-height: 14px
 }
+.breadcrumbs__ref--active {
+  color: #787885
+}
 .page-catalog__catalog {
   margin-bottom: 23px
 }
