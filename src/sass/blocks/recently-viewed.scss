@@ -1,0 +1,24 @@
+.page-catalog__recently-viewed {
+  margin-bottom: 120px;
+}
+
+.recently-viewed__title {
+  @include inter-semibold;
+  font-size: 42px;
+  line-height: 42px;
+  margin-bottom: 50px;
+}
+
+.recently-viewed__list {
+  @include ul-clear;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recently-viewed__item {
+  margin-right: 30px;
+
+  &--last {
+    margin-right: 0px;
+  }
+}

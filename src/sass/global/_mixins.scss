@@ -19,7 +19,6 @@
   color: $black;
   font-size: 16px;
   line-height: 22px;
-
 }
 
 @mixin inter-medium {
@@ -48,16 +47,6 @@
   font-size: 24px;
   line-height: 24px;
 }
-
-
-// миксины проекта мишки
-
-// @mixin ul-clear {
-//   margin: 0;
-//   padding: 0;
-//   list-style: none;
-//   text-decoration: none;
-// }
 
 // @mixin h2 {
 //   font-family: "Open Sans",
@@ -152,7 +141,6 @@
 //     font-size: 17px;
 //     line-height: 30px;
 //   }
-
 // }
 
 // @mixin outline($color: blue(110, 110, 91)) {

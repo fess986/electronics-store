@@ -1,0 +1,209 @@
+.page-catalog__catalog {
+  margin-bottom: 23px;
+}
+
+.catalog__title {
+  @include inter-semibold;
+  margin-bottom: 50px;
+}
+
+.catalog__list {
+  @include ul-clear;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// .catalog__item:not(:nth-child(5n)) {
+.catalog__item {
+  margin-right: 30px;
+  margin-bottom: 80px;
+
+  &:nth-child(5n) {
+    margin-right: 0px;
+  }
+}
+
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 280px;
+}
+
+.card__image {
+  margin-bottom: 16px;
+}
+
+.card__hint {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  &--discount {
+    display: block;
+    @include inter-medium;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $green;
+    width: 102px;
+    height: 24px;
+    background-color: $light-green;
+    text-align: center;
+  }
+
+  &--hit {
+    display: block;
+    @include inter-medium;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $vinous;
+    width: 102px;
+    height: 24px;
+    background-color: $light-vinous;
+    text-align: center;
+  }
+
+  &--installments {
+    display: block;
+    @include inter-medium;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $orange;
+    width: 143px;
+    height: 24px;
+    background-color: $light-orange;
+    text-align: center;
+  }
+
+  &--out-of-stock {
+    display: block;
+    @include inter-regular;
+    font-size: 14px;
+    line-height: 14px;
+    color: $black;
+    text-align: center;
+  }
+}
+
+.card__link {
+  @include inter-regular;
+  margin-bottom: 16px;
+
+  &--out-of-stock {
+    color: $dark-gray;
+  }
+}
+
+.cost {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.cost__current {
+  @include inter-bold;
+  margin-right: 20px;
+
+  &--out-of-stock {
+    display: none;
+  }
+}
+
+.cost__old {
+  @include inter-regular;
+  color: $dark-gray;
+  position: relative;
+
+  &--out-of-stock {
+    display: none;
+  }
+
+  &::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 77px;
+    height: 16px;
+    top: 6px;
+    left: 0px;
+    background-image: url("../img/icons/strikethrough.png");
+    background-repeat: no-repeat;
+  }
+
+  &--empty {
+    display: none;
+  }
+}
+
+.reviews-and-score {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.reviews-and-score__stars {
+  margin-right: 7px;
+}
+
+.reviews-and-score__star {
+  margin-right: 3px;
+}
+
+.reviews-and-score__score {
+  position: relative;
+  top: -1px;
+  @include inter-regular;
+  font-size: 14px;
+  color: $dark-gray;
+  margin-right: 24px;
+}
+
+.reviews-and-score__reviews {
+  position: relative;
+  top: -1px;
+  @include inter-regular;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.card__delivery {
+  @include inter-regular;
+  font-size: 14px;
+  color: $dark-gray;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+
+.card__actions {
+  margin-top: auto;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+}
+
+.card-actions__button {
+  margin-right: 24px;
+}
+
+.like-button__img {
+  stroke: $light-gray;
+
+  &--active {
+    stroke: $blue;
+  }
+}
+
+.chart-button__img {
+  stroke: $light-gray;
+
+  &--active {
+    stroke: $blue;
+  }
+}

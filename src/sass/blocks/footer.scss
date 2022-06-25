@@ -1,0 +1,95 @@
+.page-footer {
+  background-color: #F5F5F7;
+  padding-top: 67px;
+}
+
+.page-footer__row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.page-footer__column {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  max-width: 190px;
+  margin-right: 140px;
+
+  &--last {
+    margin-right: 0px;
+    margin-left: 159px;
+  }
+}
+
+.service-navigation__list {
+  @include ul-clear;
+  @include inter-medium;
+}
+
+.service-navigation-list__title {
+  @include inter-medium;
+  margin-bottom: 23px;
+  margin-bottom: 23px;
+}
+
+.service-navigation__item {
+  margin-bottom: 14px;
+}
+
+.service-navigation__reference {
+  @include link-clear;
+  @include inter-regular;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.page-footer__payment-list {
+  margin-bottom: 37px;
+}
+
+.payment-list__title {
+  @include inter-medium;
+  margin-bottom: 20px;
+}
+
+.payment-list__cards {
+  display: flex;
+  @include ul-clear;
+}
+
+.payment-list__item {
+  margin-right: 10px;
+}
+
+.socials__title {
+  @include inter-medium;
+  margin-bottom: 20px;
+}
+
+.socials__list {
+  @include ul-clear;
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 10px;
+}
+
+.footer-hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  color: red;
+  background-color: red;
+}
+
+.footer__rights {
+  @include inter-regular;
+  font-size: 12px;
+  color: $dark-gray;
+  margin: 0 auto;
+}
+
+.top-line {
+  border-top: 3px solid $dark-gray;
+}

@@ -8,9 +8,12 @@ html {
   box-sizing: inherit;
 }
 
-.wrapper {
-  // color: green;
-  // background-color: green;
+.page {
+  width: 1920px;
+}
+
+.container {
+  padding: 0 200px;
 }
 
 .visually-hidden {
@@ -34,6 +37,7 @@ html {
 .button {
   display: flex;
   justify-content: center;
+  text-transform: none;
   width: 155px;
   height: 44px;
   border-radius: 4px;
