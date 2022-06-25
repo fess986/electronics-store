@@ -148,6 +148,16 @@ function pugs() {
   .pipe(browserSync.stream())
 }
 
+// версия pug- для  build - версии
+function pugsB() {
+  return src(
+    'src/pug/*.pug'
+  )
+  .pipe(pug({pretty: false}))
+  .pipe(gulp.dest('build'))
+  .pipe(browserSync.stream())
+}
+
 
 function styles() {
   return src('src/sass/main.scss') // Выбираем источник: "src/sass/main.sass" или "app/less/main.less"
@@ -201,14 +211,13 @@ function stylesB() {
     .pipe(dest('build/css/')) // Выгрузим результат в папку "app/css/"
 }
 
-
 //чистка папок
 function cleanB() {
-  // return del('src/imgtest/**/**', {
+  //return del('src/imgtest/**/**', {
   //   force: true
-  // }) // Удаляем все содержимое папки "app/images/dest/"
-  return del(['build'])
-
+   //}) // Удаляем все содержимое папки "app/images/dest/"
+  return del(['build/**', '!build'])
+  // return del(['123/**', '!123'])
 }
 
 // копирование шрифтов и тд
@@ -230,6 +239,7 @@ exports.createwebp = createwebp; // Экспортируем функцию со
 exports.sprites = sprites; // Экспортируем функцию создания спрайтов
 
 exports.pugs = pugs;
+exports.pugsB = pugsB;
 
 exports.default = parallel(styles, scripts, browsersync, startwatch, pugs); //параллельно запустятся скрипты, сервер и слежка
 
@@ -244,10 +254,10 @@ exports.copyB = copyB; //копирование файлов изображен�
 
 //запуск сборки проекта
 const build = gulp.series( // сначала запускаем чистку папки назначения, а потом параллельно заполняем ее контентом
-  //cleanB,
-  htmlB,
+  cleanB,
   stylesB,
   scriptsB,
+  pugsB,
   copyB,
 )
 

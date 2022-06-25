@@ -3,15 +3,14 @@
 @import "global/fonts";
 @import "global/mixins";
 @import "global/global";
-@import "all-styles";
-// @import "blocks/page__header";
-// @import "blocks/main-discription";
-// @import "blocks/product_of_week";
-// @import "blocks/features";
-// @import "blocks/feedback";
-// @import "blocks/contacts";
-// @import "blocks/footer";
-// @import "blocks/socials";
-// @import "blocks/copyright";
-// @import "blocks/form";
-// @import "blocks/catalog"
+
+@import "blocks/breadcrumbs";
+@import "blocks/catalog";
+@import "blocks/footer";
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/navigation";
+@import "blocks/pagination";
+@import "blocks/recently-viewed";
+@import "blocks/site-navigation";
+@import "blocks/user-navigation";

@@ -1,0 +1,26 @@
+.header {
+  margin: 0 auto;
+  border-bottom: 2px solid $light-gray;
+}
+
+.page__header {
+  margin-bottom: 35px;
+  padding: 0 40px;
+}
+
+.header-navigation__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header-navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header-navigation__logo {
+  margin-right: 100px;
+}
